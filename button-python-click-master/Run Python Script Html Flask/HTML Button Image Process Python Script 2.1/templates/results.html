@@ -1,0 +1,24 @@
+{% for value in data %}
+<p>{{ value[1] }}</p>
+<p>
+  If you don't feel like reading much now and want to see some gift items, you
+  can jump on to seeing {{ value[2] }} directly, check out:
+  <a
+    href="https://lucasgift.com/pages/search-results-page?q={{value[3]}}"
+    target="_blank"
+    >"Best {{ value[3] }} collection"</a
+  >.
+</p>
+<p>Content : {{ value[0] }}</p>
+<p>
+  Thank you so much for reading all the way down here and if you want to see
+  some gift items, you can jump on to seeing {{ value[2] }} in our website,
+  check out:
+  <a
+    href="https://lucasgift.com/pages/search-results-page?q={{value[3]}}"
+    target="_blank"
+    >"Best {{ value[3] }} collection"</a
+  >.
+</p>
+<br />
+{% endfor %}
