@@ -98,3 +98,4 @@ Werkzeug==3.0.3
 win32-setctime==1.1.0
 wincertstore==0.2
 yarl==1.9.4
+uvicorn
